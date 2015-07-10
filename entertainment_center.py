@@ -1,12 +1,12 @@
 import fresh_tomatoes
 import media
 
-#created multiple instances of Movie
+# Created multiple instances of Movie
 dark_knight = media.Movie("The Dark Knight",
                           "The one with the Joker",
-                         "http://www.dan-dare.org/FreeFun/Images/BatmanDarkKnightWallpaper1024.jpg",
-                         "https://www.youtube.com/watch?v=EXeTwQWrcwY",
-                         "2008")
+                          "http://www.dan-dare.org/FreeFun/Images/BatmanDarkKnightWallpaper1024.jpg",
+                          "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+                          "2008")
 
 fast_furious = media.Movie("Fast and Furious 7",
                            "7th installment of the series",
@@ -20,7 +20,7 @@ the_proposal = media.Movie("The Proposal",
                            "https://www.youtube.com/watch?v=RFL8b1p1ELY",
                            "2009")
 
-#adding the instances to a movie array
+# Adding the instances to a movie array
 movies = [dark_knight, fast_furious, the_proposal]
-#passing movies array as argument to open movies page function
+# Passing movies array as argument to open movies page function
 fresh_tomatoes.open_movies_page(movies)
