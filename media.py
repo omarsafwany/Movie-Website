@@ -1,4 +1,4 @@
-#A Movie class for creating movies instances with the attributes given.
+# A Movie class for creating movies instances with the attributes given.
 import webbrowser
 
 
